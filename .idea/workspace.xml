@@ -4,7 +4,11 @@
     <list default="true" id="f01bd8f3-8329-4d2a-8d9d-1dd1cb07ee96" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Keyboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Keyboard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/alphabet.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/alphabet.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -86,7 +90,9 @@
       <workItem from="1568593213079" duration="48583000" />
       <workItem from="1568708736059" duration="819000" />
       <workItem from="1568785603566" duration="1308000" />
-      <workItem from="1568808462542" duration="29893000" />
+      <workItem from="1568808462542" duration="31119000" />
+      <workItem from="1568957499866" duration="2993000" />
+      <workItem from="1569063366698" duration="14104000" />
     </task>
     <servers />
   </component>
