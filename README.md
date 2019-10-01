@@ -13,7 +13,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 
 ##liens utilisés : 
-Lien vers l'API <code> https://github.com/faldji/AsvamApiREST_PHP.git</code><br>
-``Un projet Symfony 4 suivre son README.md``<br>
-### `http://localhost:8000/api/genMots`
-### `http://localhost:8000/api/checkMots?id=` `&display=` `&letter=` ` `
+Liens vers l'API :<br>
+``Un projet Firebase ``<br>
+### `https://europe-west1-penduapp-4c22f.cloudfunctions.net/api/genwords`
+### `https://europe-west1-penduapp-4c22f.cloudfunctions.net/api/checkMask?id=` `&display=` `&letter=` ` `

@@ -33,7 +33,7 @@ class App extends Component {
      */
     componentDidMount() {
 
-        const httpInput = "http://localhost:8000/api/genMots";
+        const httpInput = "https://europe-west1-penduapp-4c22f.cloudfunctions.net/api/genwords";
         Axios.get(httpInput)
             .then(value => {this.setState({waitAPI:true,masqueId:value.data.id, display: value.data.display});})
             .catch(reason => console.error(reason))
@@ -46,9 +46,9 @@ class App extends Component {
      */
     handleNewGameBtn =  () => {
         if (this.state.waitAPI){
-            const httpInput = "http://localhost:8000/api/genMots";
+            const httpInput = "https://europe-west1-penduapp-4c22f.cloudfunctions.net/api/genwords";
             this.setState({waitAPI:false});
-            Axios(httpInput)
+            Axios.get(httpInput)
             .then((value) => {
                 this.setState(prevState => {
                     return ({
@@ -74,10 +74,9 @@ class App extends Component {
      *
      */
     generateNewDisplay(id,disp,curLet) {
-        const httpInput = "http://localhost:8000/api/checkMots?id="+id+"&display="+disp+"&letter="+curLet.letter;
-        Axios(httpInput)
+        const httpInput = "https://europe-west1-penduapp-4c22f.cloudfunctions.net/api/checkMask";
+        Axios.get(httpInput,{params:{id: id, display: disp, letter:curLet.letter}})
             .then(value => {
-                    console.log(value.data);
                 const isWordOk = value.data.isMotOk;
                 const isEnded = (this.state.winLose === 1 && !isWordOk) ?true : value.data.isEnded;
                     this.setState(
